@@ -1,0 +1,109 @@
+.attributes-section{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.attrbtes1img{
+  width: inherit;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  position: absolute;
+  left: 0px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.attrimg{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.attr-overlay{
+  width: 100%;
+  height: 100%;    
+  background-color: #0c0c0c;
+  opacity: 0.94;
+  mix-blend-mode: multiply;
+  position: absolute;
+  top: 0;
+}
+
+.attr-head{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 70px;
+  left: 120px;
+}
+
+.attr-headtext{
+  font-size: 29px;
+  color: white;
+  font-weight: 700;
+  width: 480px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  margin-top: 0px; 
+}
+
+.attr-desc{
+  margin-top: 0px;
+  font-size: 14px;
+  width: 500px;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+  line-height: 24px;
+  color: rgb(146, 140, 140);
+}
+
+.attrvideo{
+  display: flex;
+  position: absolute;
+  border-radius: 3px;
+  width: 450px;
+  height: 330px;
+  overflow: hidden;
+  right: 120px;
+  top: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.vid-nail{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.play{
+  width: 50px;
+  z-index: 1;
+  height: 50px;
+  position: absolute;
+  
+}
+
+
+.description{
+  display: flex;
+  position: absolute;
+  top: 123px;
+  left: 120px;
+}
+
+.descone{
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  fill: azure;
+}
+
+.sdc{
+  fill: rgb(255, 255, 255);
+}
